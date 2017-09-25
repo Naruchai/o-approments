@@ -30,11 +30,12 @@ const RaisedBtnBoxStyle={paddingTop:'10px',margin:'0px 5px 0px 5px'};
 
 class MessagePanel extends Component 
 {
-    state = {open:false,MessageState:MSGSteate.Quality,anchorOrigin:{anchorOrigin:''}};
+    // state = {open:false,MessageState:MSGSteate.Quality,anchorOrigin:{anchorOrigin:''}};
 
     constructor(props)
     {
       super(props);
+      this.state= {open:false,MessageState:MSGSteate.Quality,anchorOrigin:{anchorOrigin:''}};
     }
 
     render() 
